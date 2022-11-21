@@ -140,7 +140,7 @@ div#quickActions {
 }
 
 a#hl_header--help-icon {
-    display: ;
+    display: none !important ;
 }
 
 
@@ -170,5 +170,4 @@ a#hl_header--help-icon {
 div#app {
     background: #F9FAFA !important;
 }
-
 
