@@ -1,0 +1,174 @@
+/*  Color CSS Code */
+:root {
+    --loginBtnColor: #42984f;
+    --loginBtnHover: #42984f;
+    --bodyBgColor: #fff;
+    --login-button-background-color: #fff;
+    --login-button-background-hover-color: #fff;
+    --login-button-text-color: #02b0ac;
+}
+/* BG Image CSS Code*/
+.hl_login {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/highlevel-backend.appspot.com/o/location%2F3WajUBzHFZ72vq6QGWIS%2Fimages%2F8b834445-c09d-4ce5-8492-8595fe7f4788.png?alt=media") !important;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    margin-top: -82px !important;
+    height: 100vh;
+}
+.hl_login--header {
+    background: #fff0 !important;
+    border-bottom: 0 !important;
+    padding: 0 !important;
+    margin-bottom: 20px !important;
+}
+div.hl_login--body {
+    max-width: 450px !important;
+    width: 100% !important;
+    background: var(--bodyBgColor) !important;
+    border-radius: 10px !important;
+    box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.08);
+}
+.hl_login--body .card {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.hl_login--body .card .card-body {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.hl_login .form-control {
+    background: #fff !important;
+    font-size: .875rem;
+    color: #2a3135;
+    border: 1px solid #bdbdbd !important;
+    border-radius: 5px !important;
+    padding: 10px 10px !important;
+}
+.hl_login--body .login-card-heading {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.hl_login--body .heading2 {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.hl_login .button-holder.form-group {
+    margin: 10px auto !important;
+}
+.hl_login .btn.btn-blue,
+.hl_login .btn.btn-blue:active,
+.hl_login .btn.btn-blue:focus {
+    background-color: var(--loginBtnColor);
+    border-color: var(--loginBtnColor);
+    color: #fff;
+    transition: 0.3s ease-in;
+}
+.hl_login .btn.btn-blue:hover {
+    background-color: var(--loginBtnHover);
+    border-color: var(--loginBtnHover);
+    color: #fff;
+    transition: 0.3s ease-in;
+}
+.hl_login button {
+  background-color: var(--login-button-background-color);
+  color: var(--login-button-text-color);
+  min-height: 55px;
+}
+.hl_login .hover\:bg-curious-blue-600:hover,
+.hl_login button:hover {
+  background-color: var(--login-button-background-hover-color) !important;
+}
+
+
+
+.flex.items-center.justify-center.flex-shrink-0.md\:px-1.mb-3.agency-logo-container.px-3 {
+    background: #ffffff;
+    padding-top: 5px;
+    margin-top: -16px;
+    padding-bottom: 5px;
+}
+
+.sidebar-v2-agency #sidebar-v2.default-bg-color {
+    background: #333 !important;
+}
+
+
+.sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover, .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a.active, .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a:hover {
+    background: #F9FAFA;
+}
+
+.sidebar-v2-agency #sidebar-v2 #backButtonv2 {
+    background: #F9FAFA;
+}
+
+
+div#location-switcher-sidbar-v2 {
+    background: #F9FAFA;
+}
+
+
+.sidebar-v2-location #sidebar-v2.default-bg-color {
+    background: #F9FAFA !important;
+}
+
+
+.sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active, .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover, .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a.active, .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a:hover {
+    background: #F9FAFA;
+}
+
+
+div#globalSearchOpener {
+    background: #F9FAFA;
+}
+
+div#quickActions {
+    background: #F9FAFA;
+}
+
+a#hl_header--help-icon {
+    display: ;
+}
+
+
+.hl_wrapper {
+    background: #F9FAFA !important;
+}
+
+.card {
+    background: #fff;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 0px 0.5px 0px rgb(0 0 0 / 5%), 0px 0px 0px rgb(0 0 0 / 0%), 0px 2px 4px rgb(0 0 0 / 5%);
+    border-radius: 10px !important;
+}
+
+
+.sidebar-v2-location .hl_header {
+    -webkit-box-shadow: 0 2px 3px rgb(0 0 0 / 11%);
+    box-shadow: none !important;
+}
+
+.card-header {
+    border-top-right-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+}
+
+div#app {
+    background: #F9FAFA !important;
+}
+
+
